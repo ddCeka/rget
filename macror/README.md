@@ -1,3 +1,0 @@
-# `macror`
-
-macro stuff
