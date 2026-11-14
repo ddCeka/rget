@@ -124,7 +124,7 @@ fn call_complete(
 }
 
 #[unsafe(no_mangle)]
-pub extern "system" fn Java_dev_jt_rget_RgetNative_nativeCreateHandle(
+pub extern "system" fn Java_com_rget_RgetNative_nativeCreateHandle(
     _env: JNIEnv,
     _this: JObject,
 ) -> jlong {
@@ -134,7 +134,7 @@ pub extern "system" fn Java_dev_jt_rget_RgetNative_nativeCreateHandle(
 }
 
 #[unsafe(no_mangle)]
-pub extern "system" fn Java_dev_jt_rget_RgetNative_nativeCancel(
+pub extern "system" fn Java_com_rget_RgetNative_nativeCancel(
     _env: JNIEnv,
     _this: JObject,
     handle: jlong,
@@ -145,7 +145,7 @@ pub extern "system" fn Java_dev_jt_rget_RgetNative_nativeCancel(
 }
 
 #[unsafe(no_mangle)]
-pub extern "system" fn Java_dev_jt_rget_RgetNative_nativeFreeHandle(
+pub extern "system" fn Java_com_rget_RgetNative_nativeFreeHandle(
     _env: JNIEnv,
     _this: JObject,
     handle: jlong,
@@ -154,7 +154,7 @@ pub extern "system" fn Java_dev_jt_rget_RgetNative_nativeFreeHandle(
 }
 
 #[unsafe(no_mangle)]
-pub extern "system" fn Java_dev_jt_rget_RgetNative_nativeDownload(
+pub extern "system" fn Java_com_rget_RgetNative_nativeDownload(
     mut env: JNIEnv,
     _this: JObject,
     handle: jlong,
